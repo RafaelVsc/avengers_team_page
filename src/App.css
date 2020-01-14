@@ -1,3 +1,7 @@
+body {
+  background-color: #731AB7;
+  ;
+}
 .contaier-page {
 
 }
@@ -19,7 +23,7 @@
 
 .team-description h1 {
   text-align: center;
-  color: #731AB7;
+  color: #fff;
 }
 
 .container {
@@ -37,7 +41,7 @@
   border-radius: 4px;
   max-width: 300px;
   min-width: 400px; */
-  border: 1px solid #000;
+  border: 1px solid #ddd;
   padding: 10px;
   margin: 20px;
   border-radius: 4px;
@@ -46,6 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
 }
 
 .card img {

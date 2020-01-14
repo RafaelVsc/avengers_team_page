@@ -14,8 +14,10 @@ class Card extends Component {
 									<dl>
 										<dt>Nome:</dt>
 										<dd>{team.name}</dd>								
-										<dt>Grande sonho:</dt>
+										<dt>Sonho grande:</dt>
 										<dd>{team.bigDream}</dd>
+										<dt>O que quero aprender:</dt>
+										<dd>{team.wannaLearn}</dd>
 										<dt>Eu daqui um ano...</dt>
 										<dd>{team.oneYearIn}</dd>
 										<dt>O que posso ensinar?</dt>

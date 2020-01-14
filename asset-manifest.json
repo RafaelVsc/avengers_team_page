@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/avengers_team_page/static/css/main.c1504fc4.chunk.css",
+    "main.js": "/avengers_team_page/static/js/main.c2134f25.chunk.js",
+    "main.js.map": "/avengers_team_page/static/js/main.c2134f25.chunk.js.map",
+    "runtime-main.js": "/avengers_team_page/static/js/runtime-main.70f72b8a.js",
+    "runtime-main.js.map": "/avengers_team_page/static/js/runtime-main.70f72b8a.js.map",
+    "static/js/2.f71a1042.chunk.js": "/avengers_team_page/static/js/2.f71a1042.chunk.js",
+    "static/js/2.f71a1042.chunk.js.map": "/avengers_team_page/static/js/2.f71a1042.chunk.js.map",
+    "index.html": "/avengers_team_page/index.html",
+    "precache-manifest.e12c4944a3d7ef03d71867456dc7a8e6.js": "/avengers_team_page/precache-manifest.e12c4944a3d7ef03d71867456dc7a8e6.js",
+    "service-worker.js": "/avengers_team_page/service-worker.js",
+    "static/css/main.c1504fc4.chunk.css.map": "/avengers_team_page/static/css/main.c1504fc4.chunk.css.map",
+    "static/js/2.f71a1042.chunk.js.LICENSE": "/avengers_team_page/static/js/2.f71a1042.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70f72b8a.js",
+    "static/js/2.f71a1042.chunk.js",
+    "static/css/main.c1504fc4.chunk.css",
+    "static/js/main.c2134f25.chunk.js"
+  ]
+}

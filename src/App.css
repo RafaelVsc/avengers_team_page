@@ -1,6 +1,5 @@
 body {
-  background-color: #731AB7;
-  ;
+  background-color: rgba(115, 26, 183, 0.9);
 }
 .contaier-page {
 
@@ -19,6 +18,7 @@ body {
   padding: 15px;
   width: 90%;
   margin: 20px auto;
+  color: #fff;
 }
 
 .team-description h1 {

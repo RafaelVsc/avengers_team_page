@@ -1,17 +1,9 @@
 body {
-  background-color: rgba(115, 26, 183, 0.9);
+  background-image: url("./assets/imgs/bkg-avengers.png");
+  background-repeat: no-repeat;
 }
 .contaier-page {
 
-}
-
-.contaier-page header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  background-color: #63DC3E;
-  color: #fff;
 }
 
 .team-description {
@@ -35,37 +27,65 @@ body {
   flex-wrap: wrap;
 }
 .card {
-  /* border: 1px solid #000;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 4px;
-  max-width: 300px;
-  min-width: 400px; */
   border: 1px solid #ddd;
   padding: 10px;
   margin: 20px;
   border-radius: 4px;
-  max-width: 300px;
   /* max-height: 500px; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  background-color: #fff;
 }
 
-.card img {
-  border: 4px solid #ddd;
+.card-img {
+  border: 1px solid #63DC3E;
+  display: flex
+}
+
+.card-name {
+  position: absolute;
+  background-color: #b2f7f4;
+  color: rgba(115, 26, 183, 0.9);
+  font-weight: 600;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  align-self: flex-end;
+}
+
+.card-img img {
+  /* border: 4px solid #ddd;
   border-radius: 50%;
-  width: 200px;
+  width: 200px; */
+  position: relative;
+  width: 285px;
 }
 
-.card dt {
+.card-description {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card-description dt {
   font-weight: bold;
-  color: #888;
+  color: #63DC3E;
   margin-top: .5rem;
-  margin-bottom: .5rem;
 }
 
-.card dd {
+.card-description dd::before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #63DC3E;
+}
+
+.card-description dd {
   margin: 0;
+  font-size: 14px;
+  color: #000;
 }

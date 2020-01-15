@@ -12,7 +12,10 @@ class Card extends Component {
 							<div className="card">
 									<div className="card-img">
 										<img src={team.photo} alt=""/>
-										<div className="card-name">{team.name}</div>
+										<div className="avenger-name">
+											<div className="card-name">{team.name}</div>
+											<div className="card-stack">{team.stack}</div>
+										</div>
 									</div>
 									<div className="card-description">
 										<dl>

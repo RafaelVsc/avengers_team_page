@@ -1,6 +1,7 @@
 body {
   background-image: url("./assets/imgs/bkg-avengers.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .contaier-page {
 
@@ -27,32 +28,18 @@ body {
   flex-wrap: wrap;
 }
 .card {
-  border: 1px solid #ddd;
   padding: 10px;
-  margin: 20px;
+  margin: 20px auto;
   border-radius: 4px;
-  /* max-height: 500px; */
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
+  width: 80%;
 }
 
 .card-img {
-  border: 1px solid #63DC3E;
-  display: flex
-}
-
-.card-name {
-  position: absolute;
-  background-color: #b2f7f4;
-  color: rgba(115, 26, 183, 0.9);
-  font-weight: 600;
+  /* border: 1px solid #63DC3E; */
   display: flex;
-  height: 30px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  align-self: flex-end;
+  height: 450px;
 }
 
 .card-img img {
@@ -61,16 +48,44 @@ body {
   width: 200px; */
   position: relative;
   width: 285px;
+  outline: 2px solid #80F8C2;
+  outline-offset: 8px;
+}
+
+.avenger-name {
+  position: absolute;
+  font-weight: 600;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.card-name {
+  padding: 15px;
+  background-color: #80F8C2;
+  color: #694599;
+  margin-left: 10px;
+}
+
+.card-stack {
+  color: #80F8C2;
+  margin-left: 50px;
 }
 
 .card-description {
+  width: 400px;
   background-color: #fff;
   padding: 20px;
+  border-left: 10px solid #80F8C2;
+  margin-left: 8px;
+  border-radius: 0 20px 20px 0;
 }
 
 .card-description dt {
   font-weight: bold;
-  color: #63DC3E;
+  color: #68DA4A;
   margin-top: .5rem;
 }
 
@@ -81,11 +96,11 @@ body {
   height: 4px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background-color: #63DC3E;
+  background-color: #68DA4A;
 }
 
 .card-description dd {
   margin: 0;
   font-size: 14px;
-  color: #000;
+  color: #676C7F;
 }

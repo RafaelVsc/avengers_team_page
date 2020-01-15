@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/avengers_team_page/static/css/main.8fe15e76.chunk.css",
-    "main.js": "/avengers_team_page/static/js/main.0556185b.chunk.js",
-    "main.js.map": "/avengers_team_page/static/js/main.0556185b.chunk.js.map",
+    "main.css": "/avengers_team_page/static/css/main.ac81300a.chunk.css",
+    "main.js": "/avengers_team_page/static/js/main.955e3b67.chunk.js",
+    "main.js.map": "/avengers_team_page/static/js/main.955e3b67.chunk.js.map",
     "runtime-main.js": "/avengers_team_page/static/js/runtime-main.70f72b8a.js",
     "runtime-main.js.map": "/avengers_team_page/static/js/runtime-main.70f72b8a.js.map",
     "static/js/2.f71a1042.chunk.js": "/avengers_team_page/static/js/2.f71a1042.chunk.js",
     "static/js/2.f71a1042.chunk.js.map": "/avengers_team_page/static/js/2.f71a1042.chunk.js.map",
     "index.html": "/avengers_team_page/index.html",
-    "precache-manifest.49808a7f8359896d6e7865573ff72f74.js": "/avengers_team_page/precache-manifest.49808a7f8359896d6e7865573ff72f74.js",
+    "precache-manifest.f68c03a1241470b63bfc7e1f65c0f120.js": "/avengers_team_page/precache-manifest.f68c03a1241470b63bfc7e1f65c0f120.js",
     "service-worker.js": "/avengers_team_page/service-worker.js",
-    "static/css/main.8fe15e76.chunk.css.map": "/avengers_team_page/static/css/main.8fe15e76.chunk.css.map",
+    "static/css/main.ac81300a.chunk.css.map": "/avengers_team_page/static/css/main.ac81300a.chunk.css.map",
     "static/js/2.f71a1042.chunk.js.LICENSE": "/avengers_team_page/static/js/2.f71a1042.chunk.js.LICENSE",
     "static/media/App.css": "/avengers_team_page/static/media/bkg-avengers.8506562c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.70f72b8a.js",
     "static/js/2.f71a1042.chunk.js",
-    "static/css/main.8fe15e76.chunk.css",
-    "static/js/main.0556185b.chunk.js"
+    "static/css/main.ac81300a.chunk.css",
+    "static/js/main.955e3b67.chunk.js"
   ]
 }

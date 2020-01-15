@@ -9,7 +9,7 @@ class Card extends Component {
 	//   width: "600px",
 		display: "flex",
 		justifyContent: "space-around",
-		paddingTop: "80px",
+		padding: "70px",
 		textAlign: "center",
 		background: "#52C0F5",
 		color: "#FFF",
@@ -24,7 +24,7 @@ class Card extends Component {
 	render() {
     const { participant } = this.props
 		return (
-      <div style={Card.CARD_STYLE}>
+      <div className='dad-container' style={Card.CARD_STYLE}>
 				<div className="container">
 					<div className="card-img">
 						<img src={participant.photo} alt=""/>

@@ -2,9 +2,12 @@ body {
   background-image: url("./assets/imgs/bkg-avengers.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Gayathri';
 }
 .contaier-page {
-
+    position: relative;
+    height: 100vh;
+    width: 100%;
 }
 
 .team-description {
@@ -101,6 +104,10 @@ body {
 
 .card-description dd {
   margin: 0;
-  font-size: 14px;
+  font-size: 10px;
   color: #676C7F;
+}
+
+.dad-container{
+  box-shadow: 4px 7px 12px 2px rgba(0,0,0,0.6);
 }

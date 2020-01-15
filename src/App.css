@@ -1,6 +1,7 @@
 body {
   background-image: url("./assets/imgs/bkg-avengers.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .contaier-page {
 

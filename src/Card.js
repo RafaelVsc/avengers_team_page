@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import data from "./data"; 
 import './assets/Main.css';
 
 class Card extends Component {
@@ -7,7 +6,6 @@ class Card extends Component {
     return {
 		display: "flex",
 		justifyContent: "space-around",
-		padding: "100px",
 		background: "rgba(20, 78, 153, 0.6)",
 		borderRadius: 10,
 	};

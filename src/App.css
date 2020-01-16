@@ -3,9 +3,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.contaier-page {
-
-}
 
 .team-description {
   padding: 15px;
@@ -21,7 +18,6 @@ body {
 
 .container {
   display: flex;
-  /* width: 90%; */
   margin: 0 auto;
   justify-content: space-between;
   flex-direction: row;
@@ -37,15 +33,11 @@ body {
 }
 
 .card-img {
-  /* border: 1px solid #63DC3E; */
   display: flex;
   height: 450px;
 }
 
 .card-img img {
-  /* border: 4px solid #ddd;
-  border-radius: 50%;
-  width: 200px; */
   position: relative;
   width: 285px;
   outline: 2px solid #80F8C2;
@@ -60,18 +52,21 @@ body {
   justify-content: space-between;
   align-items: center;
   align-self: flex-end;
+  flex-wrap: wrap;
+  max-width: 350px;
 }
 
 .card-name {
   padding: 15px;
   background-color: #80F8C2;
   color: #694599;
-  margin-left: 10px;
 }
 
 .card-stack {
+  background: #694599;
+  padding: 15px;
   color: #80F8C2;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .card-description {

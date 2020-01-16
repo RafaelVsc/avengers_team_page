@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/avengers_team_page/static/css/main.ac81300a.chunk.css",
-    "main.js": "/avengers_team_page/static/js/main.955e3b67.chunk.js",
-    "main.js.map": "/avengers_team_page/static/js/main.955e3b67.chunk.js.map",
-    "runtime-main.js": "/avengers_team_page/static/js/runtime-main.70f72b8a.js",
-    "runtime-main.js.map": "/avengers_team_page/static/js/runtime-main.70f72b8a.js.map",
-    "static/js/2.f71a1042.chunk.js": "/avengers_team_page/static/js/2.f71a1042.chunk.js",
-    "static/js/2.f71a1042.chunk.js.map": "/avengers_team_page/static/js/2.f71a1042.chunk.js.map",
+    "main.css": "/avengers_team_page/static/css/main.709b31ad.chunk.css",
+    "main.js": "/avengers_team_page/static/js/main.fd44e413.chunk.js",
+    "main.js.map": "/avengers_team_page/static/js/main.fd44e413.chunk.js.map",
+    "runtime-main.js": "/avengers_team_page/static/js/runtime-main.4927e2da.js",
+    "runtime-main.js.map": "/avengers_team_page/static/js/runtime-main.4927e2da.js.map",
+    "static/js/2.6b578ea6.chunk.js": "/avengers_team_page/static/js/2.6b578ea6.chunk.js",
+    "static/js/2.6b578ea6.chunk.js.map": "/avengers_team_page/static/js/2.6b578ea6.chunk.js.map",
     "index.html": "/avengers_team_page/index.html",
-    "precache-manifest.f68c03a1241470b63bfc7e1f65c0f120.js": "/avengers_team_page/precache-manifest.f68c03a1241470b63bfc7e1f65c0f120.js",
+    "precache-manifest.fed250f7d15cee95cc0d040d30ea993d.js": "/avengers_team_page/precache-manifest.fed250f7d15cee95cc0d040d30ea993d.js",
     "service-worker.js": "/avengers_team_page/service-worker.js",
-    "static/css/main.ac81300a.chunk.css.map": "/avengers_team_page/static/css/main.ac81300a.chunk.css.map",
-    "static/js/2.f71a1042.chunk.js.LICENSE": "/avengers_team_page/static/js/2.f71a1042.chunk.js.LICENSE",
+    "static/css/main.709b31ad.chunk.css.map": "/avengers_team_page/static/css/main.709b31ad.chunk.css.map",
+    "static/js/2.6b578ea6.chunk.js.LICENSE": "/avengers_team_page/static/js/2.6b578ea6.chunk.js.LICENSE",
     "static/media/App.css": "/avengers_team_page/static/media/bkg-avengers.8506562c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.70f72b8a.js",
-    "static/js/2.f71a1042.chunk.js",
-    "static/css/main.ac81300a.chunk.css",
-    "static/js/main.955e3b67.chunk.js"
+    "static/js/runtime-main.4927e2da.js",
+    "static/js/2.6b578ea6.chunk.js",
+    "static/css/main.709b31ad.chunk.css",
+    "static/js/main.fd44e413.chunk.js"
   ]
 }

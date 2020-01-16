@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/avengers_team_page/static/css/main.709b31ad.chunk.css",
-    "main.js": "/avengers_team_page/static/js/main.fd44e413.chunk.js",
-    "main.js.map": "/avengers_team_page/static/js/main.fd44e413.chunk.js.map",
+    "main.js": "/avengers_team_page/static/js/main.53b982d7.chunk.js",
+    "main.js.map": "/avengers_team_page/static/js/main.53b982d7.chunk.js.map",
     "runtime-main.js": "/avengers_team_page/static/js/runtime-main.4927e2da.js",
     "runtime-main.js.map": "/avengers_team_page/static/js/runtime-main.4927e2da.js.map",
-    "static/js/2.6b578ea6.chunk.js": "/avengers_team_page/static/js/2.6b578ea6.chunk.js",
-    "static/js/2.6b578ea6.chunk.js.map": "/avengers_team_page/static/js/2.6b578ea6.chunk.js.map",
+    "static/js/2.425b278b.chunk.js": "/avengers_team_page/static/js/2.425b278b.chunk.js",
+    "static/js/2.425b278b.chunk.js.map": "/avengers_team_page/static/js/2.425b278b.chunk.js.map",
     "index.html": "/avengers_team_page/index.html",
-    "precache-manifest.fed250f7d15cee95cc0d040d30ea993d.js": "/avengers_team_page/precache-manifest.fed250f7d15cee95cc0d040d30ea993d.js",
+    "precache-manifest.af2b31fcdfd1aa822cbdc2fbdb55acdf.js": "/avengers_team_page/precache-manifest.af2b31fcdfd1aa822cbdc2fbdb55acdf.js",
     "service-worker.js": "/avengers_team_page/service-worker.js",
     "static/css/main.709b31ad.chunk.css.map": "/avengers_team_page/static/css/main.709b31ad.chunk.css.map",
-    "static/js/2.6b578ea6.chunk.js.LICENSE": "/avengers_team_page/static/js/2.6b578ea6.chunk.js.LICENSE",
+    "static/js/2.425b278b.chunk.js.LICENSE": "/avengers_team_page/static/js/2.425b278b.chunk.js.LICENSE",
     "static/media/App.css": "/avengers_team_page/static/media/bkg-avengers.8506562c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4927e2da.js",
-    "static/js/2.6b578ea6.chunk.js",
+    "static/js/2.425b278b.chunk.js",
     "static/css/main.709b31ad.chunk.css",
-    "static/js/main.fd44e413.chunk.js"
+    "static/js/main.53b982d7.chunk.js"
   ]
 }

@@ -15,13 +15,18 @@ export default class Carousel extends Component {
   static get CONTAINER_STYLE() {
     return {
       position: "relative",
-      height: "100vh",
+      height: "70%",
       width: "100%",
       display: "flex",
       flex: 1,
       justifyContent: "center",
-      alignItems: "middle"
+      alignItems: "center",
+      flexDirection: "column"
     };
+  }
+
+  nextCarousel(){
+    this.Carousel.next()
   }
 
   render() {
@@ -34,6 +39,9 @@ export default class Carousel extends Component {
             ))
           };
         </ReactCardCarousel>
+        <div>
+          <button >Next</button>
+        </div>
       </div>
     );
   }

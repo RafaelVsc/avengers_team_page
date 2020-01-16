@@ -39,9 +39,6 @@ export default class Carousel extends Component {
             ))
           };
         </ReactCardCarousel>
-        <div>
-          <button >Next</button>
-        </div>
       </div>
     );
   }

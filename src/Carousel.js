@@ -32,7 +32,7 @@ export default class Carousel extends Component {
   render() {
     return (
       <div style={Carousel.CONTAINER_STYLE}>
-        <ReactCardCarousel ref = { Carousel => this.Carousel = Carousel } autoplay={false} autoplay_speed={4000}>
+        <ReactCardCarousel autoplay={true} autoplay_speed={4000}>
           {
             this.state.information.map(participant => (
               <Card key={participant.id} participant={participant}/>

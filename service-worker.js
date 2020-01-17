@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/avengers_team_page/precache-manifest.3a12fbf882e1689a73baf383e9876e98.js"
+  "/avengers_team_page/precache-manifest.3e977b45f74831705a70e77c3cf73737.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3e24d146b909ebb6f9f2fbfc641d20c",
+    "revision": "43d14d2a64ac7634a76f300ba185791a",
     "url": "/avengers_team_page/index.html"
   },
   {
-    "revision": "e77b9b5abbbdd38a2981",
+    "revision": "1c409c9389bc97095b56",
     "url": "/avengers_team_page/static/css/main.979dfa32.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/avengers_team_page/static/js/2.1d228f02.chunk.js.LICENSE"
   },
   {
-    "revision": "e77b9b5abbbdd38a2981",
-    "url": "/avengers_team_page/static/js/main.ace10b88.chunk.js"
+    "revision": "1c409c9389bc97095b56",
+    "url": "/avengers_team_page/static/js/main.0ac7315d.chunk.js"
   },
   {
     "revision": "0ff007da87b6277e5547",

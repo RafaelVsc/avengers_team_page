@@ -1,14 +1,22 @@
 import React from 'react';
 import "./App.css"
-import Carousel from './Carousel';
+import Card from './Card';
 function App() {
   return (
     <div className="contaier-page">
       <div className="team-description">
         <h1>Equipe Avengers</h1>
-        <p> Aqui é uma descrição do time - Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis rerum odit ratione explicabo molestiae eveniet. Aliquam hic, totam enim distinctio incidunt recusandae, quia nulla odit consequatur voluptate ad sit.Laudantium aut quasi voluptas dolore autem tempora, ratione similique, praesentium ipsum, dolorum adipisci impedit? Quia nobis cum natus ut sequi eos non quidem aperiam. Ducimus, non enim. Voluptate, molestiae aliquid?</p>
+        <p> 
+          Olá! Nós somos os Avengers, mas ao contrário do que você pode estar pensando este não é nenhum filme da Marvel, é o <label>Game Experience</label> (by Gama Academy), 
+          e os desafios podem ser muito maiores do que enfrentar um <label>Titã genocida</label>. Nossa equipe é composta  por 14 integrantes, 
+          sendo dividida entre 4 hipsters, 4 hustlers, 3 hypers e 3 hackers (privilegiados SIM). Escolhemos o Rafa Vescio para ser nosso "Capitão América" (que também pode ser conhecido como O Líder). 
+          Logo abaixo você vai poder conhecer mais sobre nosso time… e antes que a gente se esqueca: <label>Avengers, assemble!</label>
+        </p>
+        <div className="meet-team">
+          <h1>Quem somos</h1>
+        </div>
       </div>
-      <Carousel></Carousel>
+      <Card></Card>
     </div>
   );
 }

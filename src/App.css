@@ -6,9 +6,14 @@ body {
 }
 
 .contaier-page {
-    position: relative;
-    height: 100vh;
-    width: 100%;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.meet-team  {
+  color: #68DA4A;
+  font-size: 2.5rem;
 }
 
 .team-description {
@@ -18,25 +23,27 @@ body {
   color: #fff;
 }
 
+.team-description label {
+  color: #68DA4A;
+  font-weight: 600;
+}
+
 .team-description h1 {
   text-align: center;
-  color: #fff;
 }
 
 .container {
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .card {
   padding: 10px;
-  margin: 20px auto;
-  border-radius: 4px;
   display: flex;
-  align-items: center;
-  width: 80%;
+  margin: 40px 0;
 }
 
 .card-img {
@@ -77,9 +84,9 @@ body {
 }
 
 .card-description {
-  width: 400px;
+  width: 450px;
   background-color: #fff;
-  padding: 20px;
+  padding-left: 20px;
   border-left: 10px solid #80F8C2;
   margin-left: 8px;
   border-radius: 0 20px 20px 0;
@@ -103,10 +110,39 @@ body {
 
 .card-description dd {
   margin: 0;
-  font-size: 10px;
+  font-size: 12px;
   color: #676C7F;
 }
 
-.dad-container{
-  box-shadow: 4px 7px 12px 2px rgba(0,0,0,0.6);
+@media only screen and (max-width: 768px)  {
+  .card {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-img {
+    justify-content: center;
+  }
+
+  .card-img img {
+    max-width: 400px;
+  }
+
+  .card-description {
+    display: block;
+    margin: 15px auto;
+    padding: 20px;
+    border-left: none;
+    margin-left: 8px;
+    border-radius: 0;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .card-description dd {
+    margin: 0;
+    font-size: 1rem;
+    color: #676C7F;
+  }
 }
